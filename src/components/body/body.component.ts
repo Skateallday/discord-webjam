@@ -6,6 +6,7 @@ import { AppComponent } from '../../components/app/app.component';
   selector: 'app-body',
   imports: [SidebarComponent, AppComponent],
   templateUrl: `./body.component.html`,
+  styleUrl: './body.component.css',
   standalone: true,
 })
 export class BodyComponent {}

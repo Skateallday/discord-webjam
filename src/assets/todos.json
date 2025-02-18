@@ -1,0 +1,25 @@
+{
+    "todos": [
+      {
+        "id": 1,
+        "heading": "Finish project proposal",
+        "body": "Get the brief out as soon as possible",
+        "completed": false,
+        "due_date": "2025-02-20"
+      },
+      {
+        "id": 2,
+        "heading": "Buy groceries",
+        "body": "Apples, bananas, chillies...",
+        "completed": true,
+        "due_date": "2025-02-18"
+      },
+      {
+        "id": 3,
+        "heading": "Call the dentist",
+        "body": "Review dental plan",
+        "completed": false
+      }
+    ]
+  }
+  
