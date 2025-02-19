@@ -1,5 +1,4 @@
-{
-    "todos": [
+[
       {
         "id": 1,
         "heading": "Finish project proposal",
@@ -18,8 +17,10 @@
         "id": 3,
         "heading": "Call the dentist",
         "body": "Review dental plan",
-        "completed": false
+        "completed": false,
+        "due_date": "2025-02-18"
+
       }
     ]
-  }
+  
   

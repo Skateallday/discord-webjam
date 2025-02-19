@@ -1,2 +1,9 @@
-<span>{{todo.title}}</span>
-<span>{{todo.body}}</span>
+<ul *ngIf="todos && todos.length">
+    <li *ngFor="let todo of todos">
+      <h3>{{ todo.heading }}</h3>
+      <p>{{ todo.body }}</p>
+      <p>Due: {{ todo.due_date }}</p>
+    </li>
+  </ul>
+  <p *ngIf="!todos || todos.length === 0">No todos found.</p>
+  
